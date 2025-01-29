@@ -2,10 +2,10 @@
 Este es el backend de la aplicación ReportesTk, desarrollado en Laravel 10 con Sanctum para autenticación y Laravel WebSockets para actualizaciones en tiempo real.
 
 ## 🚀 Tecnologías utilizadas
-Laravel: Framework PHP para backend.
-PHP: Lenguaje de programación utilizado (versión recomendada: 8.2 o superior).
-MySQL: Gestor de bases de datos.
-Composer: Administrador de dependencias para PHP.
+- Laravel: Framework PHP para backend.
+- PHP: Lenguaje de programación utilizado (versión recomendada: 8.2 o superior).
+- MySQL: Gestor de bases de datos.
+- Composer: Administrador de dependencias para PHP.
 
 ## 🛠️ Instalación
 -- Clonar el repositorio
