@@ -3,12 +3,12 @@ Este es el backend de la aplicación ReportesTk, desarrollado en Laravel 10 con 
 
 ## 🚀 Tecnologías utilizadas
 - Laravel: Framework PHP para backend.
-- PHP: Lenguaje de programación utilizado (versión recomendada: 8.2 o superior).
+- PHP: Lenguaje de programación utilizado (versión : 8.2 ).
 - MySQL: Gestor de bases de datos.
 - Composer: Administrador de dependencias para PHP.
 
 ## 🛠️ Instalación
--- Clonar el repositorio
+ Clonar el repositorio
 ```sh
 git clone https://github.com/hazielace/ReportsTkBack.git
 cd ReportesTkBack
@@ -39,4 +39,8 @@ php artisan websockets:serve
 Iniciar jobs en segundo plano
 ```sh
 php artisan queue:work
+```
+*** Se incluyo test de end points con postman el archivo es:
+```sh
+Tkambio.postman_collection
 ```
