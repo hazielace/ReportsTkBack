@@ -40,7 +40,8 @@ Iniciar jobs en segundo plano
 ```sh
 php artisan queue:work
 ```
-*** Se incluyo test de end points con postman el archivo es:
+## Pruebas de endpoints con Postman
+El archivo para realizar pruebas es:
 ```sh
 Tkambio.postman_collection
 ```
