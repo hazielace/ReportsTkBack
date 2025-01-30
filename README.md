@@ -23,7 +23,16 @@ Instalar dependencias
 ```sh
 composer install
 ```
-Migrar la base de datos y ejecutar seeder (antes crear la bd)
+Crear la Base de datos, se adjunto archivo para la creación:
+```sh
+tkambiobd.sql
+```
+O puede ejecutar la siguiente consulta en su gestor de base de datos MYSQL:
+```sql
+CREATE DATABASE tkambiobd;
+use tkambiobd;
+```
+Migrar la base de datos y ejecutar seeder (antes crear la base de datos)
 ```sh
 php artisan migrate
 php artisan db:seed --class=UserSeeder
